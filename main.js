@@ -565,6 +565,8 @@ IcqComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationComponent", function() { return NavigationComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
+
 
 
 class NavigationComponent {
@@ -579,7 +581,7 @@ class NavigationComponent {
     }
 }
 NavigationComponent.ɵfac = function NavigationComponent_Factory(t) { return new (t || NavigationComponent)(); };
-NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavigationComponent, selectors: [["app-navigation"]], decls: 24, vars: 0, consts: [["id", "myNav", 1, "overlay"], ["href", "javascript:void(0)", 1, "closebtn", 3, "click"], [1, "overlay-content", 2, "text-align", "center"], [2, "display", "inline-block", "text-align", "left"], ["href", "anixart"], ["href", "icq"], ["id", "nav-header", 1, "nav-header"], ["href", "index.html", 1, "navbar-brand"], ["data-text", "Takhir Aralbaev", 1, "glitch", "nav-logo", 2, "font-size", "40px"], ["src", "assets/img/menu.svg", "alt", "Takhir Aralabev Android Developer Portfolio Tab", 1, "navbar-menu", 2, "cursor", "pointer", 3, "click"]], template: function NavigationComponent_Template(rf, ctx) { if (rf & 1) {
+NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavigationComponent, selectors: [["app-navigation"]], decls: 24, vars: 0, consts: [["id", "myNav", 1, "overlay"], ["href", "javascript:void(0)", 1, "closebtn", 3, "click"], [1, "overlay-content", 2, "text-align", "center"], [2, "display", "inline-block", "text-align", "left"], ["routerLink", "/anixart"], ["routerLink", "/icq"], ["id", "nav-header", 1, "nav-header"], ["href", "index.html", 1, "navbar-brand"], ["data-text", "Takhir Aralbaev", 1, "glitch", "nav-logo", 2, "font-size", "40px"], ["src", "assets/img/menu.svg", "alt", "Takhir Aralabev Android Developer Portfolio Tab", 1, "navbar-menu", 2, "cursor", "pointer", 3, "click"]], template: function NavigationComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_Template_a_click_1_listener() { return ctx.closeNav(); });
@@ -619,7 +621,7 @@ NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NavigationComponent_Template_img_click_23_listener() { return ctx.openNav(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJuYXZpZ2F0aW9uLmNvbXBvbmVudC5zY3NzIn0= */"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJuYXZpZ2F0aW9uLmNvbXBvbmVudC5zY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NavigationComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
